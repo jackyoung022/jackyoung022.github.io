@@ -7218,8 +7218,12 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 64rem;
+		overflow: hidden;
 	}
-
+		.wrapper.style1 > .inner img{
+			max-width: 100%;
+			max-height: 100%;
+		}
 		.wrapper.style1 > .inner.medium {
 			width: 48rem;
 		}
